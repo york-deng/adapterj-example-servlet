@@ -1,0 +1,1 @@
+# adapterj-example-servlet
