@@ -1,5 +1,7 @@
 # adapterj-example-servlet
 
+点击[这里](https://github.com/york-deng/adapterj-example-servlet/blob/master/README_CN.md)阅读[中文说明](https://github.com/york-deng/adapterj-example-servlet/blob/master/README_CN.md)
+
 An example based on Standard HTML Template (without any special syntax, tags, attributes), Servlet, and [AdapterJ](https://github.com/york-deng/adapterj). 
 
 ## Environment Requirements
