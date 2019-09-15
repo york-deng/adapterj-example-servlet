@@ -28,7 +28,7 @@ import com.adapterj.widget.SimpleHTMLView;
 import com.adapterj.widget.SimpleListAdapter;
 import com.adapterj.widget.SimpleSelectOptions;
 import com.adapterj.widget.View;
-import com.adapterj.ext.servlet.AbstractServlet;
+import com.adapterj.ext.servlet.InitServlet;
 
 import com.adapterj.logging.Debugger;
 import com.adapterj.logging.Log;
@@ -41,7 +41,7 @@ import com.adapterj.example.web.ErrorPage;
  * 
  * @author York/GuangYu DENG
  */
-public class SimpleListServlet1 extends AbstractServlet {
+public class SimpleListServlet1 extends InitServlet {
 
 	private static final long serialVersionUID = -149068714872773711L;
 	private static final boolean DEBUG = Debugger.DEBUG;

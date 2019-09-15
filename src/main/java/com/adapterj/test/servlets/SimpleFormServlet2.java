@@ -23,7 +23,7 @@ import com.adapterj.example.db.SourceQuery;
 import com.adapterj.example.pojo.Source;
 import com.adapterj.example.web.WelcomePage;
 import com.adapterj.web.Htmlable;
-import com.adapterj.ext.servlet.AbstractServlet;
+import com.adapterj.ext.servlet.InitServlet;
 import com.adapterj.ext.servlet.SimpleHttpParametersResolver;
 
 /**
@@ -31,12 +31,12 @@ import com.adapterj.ext.servlet.SimpleHttpParametersResolver;
  * 
  * @author York/GuangYu DENG
  */
-public class SimpleFormServlet2 extends AbstractServlet {
+public class SimpleFormServlet2 extends InitServlet {
 
-	private static final long serialVersionUID = -1317969295329107435L;
+	 static final long serialVersionUID = -1317969295329107435L;
 	
-	private static final boolean DEBUG = Debugger.DEBUG;
-    private static final String TAG = SimpleFormServlet2.class.getName();
+	 static final boolean DEBUG = Debugger.DEBUG;
+     static final String TAG = SimpleFormServlet2.class.getName();
 
 	@Override
 	protected void doGet(HttpServletRequest httpRequest, 

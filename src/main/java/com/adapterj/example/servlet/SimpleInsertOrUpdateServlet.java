@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.adapterj.registry.RegistryFactory;
 import com.adapterj.web.Htmlable;
-import com.adapterj.ext.servlet.AbstractServlet;
+import com.adapterj.ext.servlet.InitServlet;
 import com.adapterj.ext.servlet.SimpleHttpParametersResolver;
 
 import com.adapterj.logging.Debugger;
@@ -27,7 +27,7 @@ import com.adapterj.example.web.WelcomePage;
  * @author York/GuangYu DENG
  */
 @SuppressWarnings("unused")
-public class SimpleInsertOrUpdateServlet extends AbstractServlet {
+public class SimpleInsertOrUpdateServlet extends InitServlet {
 
 	private static final long serialVersionUID = -1317969295329107435L;
 	private static final boolean DEBUG = Debugger.DEBUG;

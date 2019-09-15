@@ -26,7 +26,7 @@ import com.adapterj.widget.SimpleSelectOptions;
 import com.adapterj.widget.SimpleViewAdapter;
 import com.adapterj.widget.View;
 
-import com.adapterj.ext.servlet.AbstractServlet;
+import com.adapterj.ext.servlet.InitServlet;
 import com.adapterj.ext.servlet.SimpleHttpParametersResolver;
 import com.adapterj.ext.web.AbstractPage;
 
@@ -42,7 +42,7 @@ import com.adapterj.example.web.WelcomePage;
  * 
  * @author York/GuangYu DENG
  */
-public class SimpleViewServlet1 extends AbstractServlet {
+public class SimpleViewServlet1 extends InitServlet {
 
 	private static final long serialVersionUID = 2641353179969392683L;
 	private static final boolean DEBUG = Debugger.DEBUG;

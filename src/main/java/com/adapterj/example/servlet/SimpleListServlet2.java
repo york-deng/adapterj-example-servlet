@@ -23,7 +23,7 @@ import com.adapterj.widget.AnchorGroup;
 import com.adapterj.widget.SimpleHTMLView;
 import com.adapterj.widget.SimpleListAdapter;
 import com.adapterj.widget.View;
-import com.adapterj.ext.servlet.AbstractServlet;
+import com.adapterj.ext.servlet.InitServlet;
 
 import com.adapterj.example.db.SourceListQuery;
 import com.adapterj.example.pojo.Source;
@@ -37,7 +37,7 @@ import com.adapterj.logging.Log;
  * 
  * @author York/GuangYu DENG
  */
-public class SimpleListServlet2 extends AbstractServlet {
+public class SimpleListServlet2 extends InitServlet {
 
 	private static final long serialVersionUID = -149068714872773711L;
 	

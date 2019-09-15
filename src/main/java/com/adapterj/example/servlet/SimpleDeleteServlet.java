@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.adapterj.registry.RegistryFactory;
-import com.adapterj.ext.servlet.AbstractServlet;
+import com.adapterj.ext.servlet.InitServlet;
 import com.adapterj.ext.servlet.SimpleHttpParametersResolver;
 import com.adapterj.ext.web.AbstractPage;
 
@@ -24,7 +24,7 @@ import com.adapterj.example.web.WelcomePage;
  * 
  * @author York/GuangYu DENG
  */
-public class SimpleDeleteServlet extends AbstractServlet {
+public class SimpleDeleteServlet extends InitServlet {
 
 	private static final long serialVersionUID = -1317969295329107435L;
 

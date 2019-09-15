@@ -326,9 +326,6 @@ public class OrmOpenHelper {
     
     // init data
     protected final void init() throws SQLException, FileNotFoundException {
-
-        @SuppressWarnings("unused")
-        final Date now = new Date();
         if (nowVer == 0 || _jdbcUrl.startsWith(JDBC_H2_CONNECTION_URL_PREFIX)) {
 	    final Connection conn = getConnection();
             if (DEBUG) {
@@ -373,7 +370,7 @@ public class OrmOpenHelper {
             
             final Long id = 3L;
             item = dao.queryForId(id);
-
+	    
             item.setWWW("www.bbwc.cn");
             item.setURL9(null);
             item.setUpdateTime(new Date());
@@ -383,7 +380,7 @@ public class OrmOpenHelper {
                 String f = "(%s:%d) %s: item is %s";
                 Log.i(TAG, String.format(f, t.getFileName(), t.getLineNumber(), t.getMethodName(), item.toJSONString()));
             }
-
+	    
             dao.update(item);
             dao.refresh(item);
         } catch (SQLException e) {

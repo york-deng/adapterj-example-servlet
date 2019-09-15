@@ -33,24 +33,24 @@ import com.adapterj.example.db.SourceListQuery;
 import com.adapterj.example.pojo.Source;
 import com.adapterj.example.web.ErrorPage;
 import com.adapterj.web.Htmlable;
-import com.adapterj.ext.servlet.AbstractServlet;
+import com.adapterj.ext.servlet.InitServlet;
 
 /**
  * 
  * @author York/GuangYu DENG
  */
-public class SimpleListServlet13 extends AbstractServlet {
+public class SimpleListServlet13 extends InitServlet {
 
-	private static final long serialVersionUID = -149068714872773711L;
+	 static final long serialVersionUID = -149068714872773711L;
 	
-	private static final boolean DEBUG = Debugger.DEBUG;
-    private static final String TAG = SimpleListServlet13.class.getName();
+	 static final boolean DEBUG = Debugger.DEBUG;
+     static final String TAG = SimpleListServlet13.class.getName();
 
-    private final Registry _registry = RegistryFactory.getRegistry();
-    private final String _templateFile = "/simplelist.html";
+     final Registry _registry = RegistryFactory.getRegistry();
+     final String _templateFile = "/simplelist.html";
     
-    private String _acceleratorClass = null;
-    private Document _document = null;
+     String _acceleratorClass = null;
+     Document _document = null;
 
 	public void init(ServletConfig config) throws ServletException {
 		super.init(config);

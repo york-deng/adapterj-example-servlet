@@ -23,7 +23,7 @@ import com.adapterj.widget.SimpleHTMLView;
 import com.adapterj.widget.SimpleMapAdapter;
 import com.adapterj.widget.SimpleSelectOptions;
 import com.adapterj.widget.View;
-import com.adapterj.ext.servlet.AbstractServlet;
+import com.adapterj.ext.servlet.InitServlet;
 import com.adapterj.ext.servlet.SimpleHttpParametersResolver;
 
 import com.adapterj.logging.Debugger;
@@ -39,7 +39,7 @@ import com.adapterj.example.web.ErrorPage;
  * 
  * @author York/GuangYu DENG
  */
-public class SimpleMapServlet12 extends AbstractServlet {
+public class SimpleMapServlet12 extends InitServlet {
 
 	private static final long serialVersionUID = -1317969295329107435L;
 	
