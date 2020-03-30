@@ -20,7 +20,7 @@ mvn clean deploy
 
 cd ..
 
-git clone https://github.com/york-deng/adapterj-example-vertx-spring.git
+git clone https://github.com/york-deng/adapterj-example-servlet.git
 cd adapterj-example-servlet   
 mvn tomcat7:run   
 ```
