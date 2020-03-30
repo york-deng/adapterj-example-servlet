@@ -7,10 +7,8 @@
 * Maven 3.0+
 
 ## 使用方法 
-1. 下载 adapterj-example-servlet   
-2. 解压 adapterj-example-servlet-master.zip   
-3. 运行以下命令行   
-4. 在浏览器中打开[演示地址](http://localhost:8080/adapterj-example-servlet)   
+1. 运行以下命令行   
+2. 在浏览器中打开[演示地址](http://localhost:8080/adapterj-example-servlet)   
 
 ## 命令行
 ```
