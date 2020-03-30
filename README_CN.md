@@ -14,6 +14,13 @@
 
 ## 命令行
 ```
+git clone https://github.com/york-deng/adapterj.git
+cd adapterj
+mvn clean deploy
+
+cd ..
+
+git clone https://github.com/york-deng/adapterj-example-vertx-spring.git
 cd adapterj-example-servlet   
 mvn tomcat7:run   
 ```
