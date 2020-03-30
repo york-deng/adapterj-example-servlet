@@ -9,13 +9,18 @@ An example based on Standard HTML Template (without any special syntax, tags, at
 * Maven 3.0+
 
 ## Guide 
-1. Download adapterj-example-servlet   
-2. Unpack adapterj-example-servlet-master.zip   
-3. Run these two Command Lines as below   
-4. Open the [URL](http://localhost:8080/adapterj-example-servlet) with a web browser   
+1. Run these Command Lines as below   
+2. Open the [URL](http://localhost:8080/adapterj-example-servlet) with a web browser   
 
 ## Command Lines
 ```
+git clone https://github.com/york-deng/adapterj.git
+cd adapterj
+mvn clean deploy
+
+cd ..
+
+git clone https://github.com/york-deng/adapterj-example-servlet.git
 cd adapterj-example-servlet   
 mvn tomcat7:run   
 ```
